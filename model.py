@@ -62,8 +62,8 @@ def _preprocess_data(data):
     # ---------------------------------------------------------------
 
     # ----------- Replace this code with your own preprocessing steps --------
-    df_train = pd.read_csv('df_train.csv')
-    df_test = pd.read_csv('df_test.csv')
+    df_train = pd.read_csv('utils/data/df_train.csv')
+    df_test = pd.read_csv('utils/data/df_test.csv')
     
     df_train_copy = df_train.copy()
     df_test_copy = df_test.copy()
